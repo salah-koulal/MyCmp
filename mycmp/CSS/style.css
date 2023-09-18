@@ -13,7 +13,7 @@ header{
 
 header nav {
   font-size: 18px;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top:10px;
 }
     nav a{
@@ -25,7 +25,6 @@ header nav {
 
 /*update this after*/
 nav a:hover{
-  font-size: 24px;
   color: #5d4064;
   filter: blur(1px); 
  }
@@ -240,12 +239,12 @@ header h2{
  }
  .text {
   position: absolute;
-  top: 85%; 
+  top: 100%; 
   right: 50%;
   transform: translate(50%,-50%);
   text-transform: uppercase;
   font-family: verdana;
-  font-size: 10em;
+  font-size: 6em;
   font-weight: 700;
   color: #74b3ed;
   text-shadow: 1px 1px 1px #919191,
@@ -275,7 +274,7 @@ header h2{
   margin-left: 8%;
   margin-top: 10%;
   animation-timing-function: ease-in-out;
-  animation: pulse 5s infinite;
+  animation: pulse 5s linear;
 }
 
 
